@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment files (contain DB passwords, API keys — never commit!)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Uploaded files (stored locally / on cloud)
+uploads/*
+!uploads/.gitkeep
+
+# IDEs and editors
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Misc
+/coverage
